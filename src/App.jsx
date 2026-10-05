@@ -1,13 +1,9 @@
 import { useState } from "react";
 
-import Tabs from "./Tabs";
-import TabButton from "./TabButton";
+import Tabs from "./components/Tabs";
+import TabButton from "./components/TabButton";
 
-import heroImg from "./assets/hero.png";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState();
